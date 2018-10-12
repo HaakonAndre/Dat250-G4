@@ -25,5 +25,10 @@ public class SoapKake {
 	public List<Product> findProducts() {
 		return auctionDao.findProducts();
 	}
+	
+	@WebMethod(operationName="addBid")
+	public String addBid(@WebParam(name="bid") int bid,@WebParam(name="productId") int id) {
+		return auctionDao.addBid("haakon@hotmail", bid, id);
+	}
 
 }
