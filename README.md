@@ -1,3 +1,2 @@
 # AuctionApp
-# AuctionApp
-# pizzafolket
+
